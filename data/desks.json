@@ -1,0 +1,102 @@
+{
+  "updated": "2026-08-14",
+  "ranking_source": {
+    "name": "WIREBENCH desk",
+    "title": "DESK-10 — standing beats, not a computed ranking",
+    "url": "https://www.bbc.com/news/world",
+    "published": "2026-08-14",
+    "note": "Order is editorial: which desks a wire would staff first. The NOW line on each card is the latest matching public RSS item. It is not a judgment that the story is the most important on earth."
+  },
+  "desks": [
+    {
+      "rank": 1,
+      "id": "world",
+      "name": "WORLD",
+      "weight": "critical",
+      "summary": "The foreign desk. Wars, diplomacy, and the stories that do not start in Washington or Austin.",
+      "keywords": ["ukraine", "gaza", "israel", "china", "taiwan", "russia", "nato", "united nations", "eu ", "africa", "latin america", "india", "iran", "north korea", "sudan", "haiti"],
+      "sources": [{"label": "BBC World", "url": "https://www.bbc.com/news/world"}]
+    },
+    {
+      "rank": 2,
+      "id": "nation",
+      "name": "NATION",
+      "weight": "critical",
+      "summary": "The US national desk. Congress, the White House, agencies, and the federal story of the day.",
+      "keywords": ["white house", "congress", "senate", "house ", "washington", "president", "federal", "doge", "homeland", "fema"],
+      "sources": [{"label": "NPR", "url": "https://www.npr.org/"}]
+    },
+    {
+      "rank": 3,
+      "id": "texas",
+      "name": "TEXAS",
+      "weight": "critical",
+      "summary": "The state desk. Austin, Houston, the border, the grid, and whatever the Lege is doing this week.",
+      "keywords": ["texas", "austin", "houston", "dallas", "abbott", "border", "ercot", "brazoria", "galveston", "legislature"],
+      "sources": [{"label": "Texas Tribune", "url": "https://www.texastribune.org/"}]
+    },
+    {
+      "rank": 4,
+      "id": "war",
+      "name": "WAR",
+      "weight": "high",
+      "summary": "Armed conflict and the Pentagon line. Separate from WORLD so a strike does not bury a famine.",
+      "keywords": ["pentagon", "missile", "airstrike", "troops", "ceasefire", "hamas", "hezbollah", "idf", "drone", "defense department"],
+      "sources": [{"label": "Defense.gov", "url": "https://www.defense.gov/"}]
+    },
+    {
+      "rank": 5,
+      "id": "money",
+      "name": "MONEY",
+      "weight": "high",
+      "summary": "Markets, the Fed, trade, and the price of everything. A wire without a money desk is a newsletter.",
+      "keywords": ["inflation", "federal reserve", "interest rate", "tariff", "stocks", "wall street", "recession", "jobs report", "dollar"],
+      "sources": [{"label": "Guardian", "url": "https://www.theguardian.com/business"}]
+    },
+    {
+      "rank": 6,
+      "id": "energy",
+      "name": "ENERGY",
+      "weight": "high",
+      "summary": "Oil, gas, LNG, nuclear, and the Texas grid. This QTH lives on that story whether it wants to or not.",
+      "keywords": ["oil", "opec", "lng", "pipeline", "refinery", "nuclear", "grid", "ercot", "permian", "crude"],
+      "sources": [{"label": "Houston Public Media", "url": "https://www.houstonpublicmedia.org/"}]
+    },
+    {
+      "rank": 7,
+      "id": "science",
+      "name": "SCIENCE",
+      "weight": "medium",
+      "summary": "Labs, climate, public health, and the papers that escape the journals.",
+      "keywords": ["study", "climate", "vaccine", "cdc", "who ", "researchers", "scientists", "pandemic", "ai model"],
+      "sources": [{"label": "BBC Science", "url": "https://www.bbc.com/news/science_and_environment"}]
+    },
+    {
+      "rank": 8,
+      "id": "courts",
+      "name": "COURTS",
+      "weight": "high",
+      "summary": "Indictments, injunctions, SCOTUS, and the cases that move from filing to front page.",
+      "keywords": ["supreme court", "scotus", "lawsuit", "indictment", "verdict", "judge", "appeals", "doj", "attorney general"],
+      "sources": [{"label": "Guardian US", "url": "https://www.theguardian.com/us-news"}]
+    },
+    {
+      "rank": 9,
+      "id": "space",
+      "name": "SPACE",
+      "weight": "medium",
+      "summary": "NASA, commercial crew, and whatever just left the pad. The only desk that is allowed to be earnest.",
+      "keywords": ["nasa", "spacex", "iss", "moon", "mars", "launch", "satellite", "astronaut", "artemis", "starship"],
+      "sources": [{"label": "NASA", "url": "https://www.nasa.gov/"}]
+    },
+    {
+      "rank": 10,
+      "id": "press",
+      "name": "PRESS",
+      "weight": "medium",
+      "summary": "The desk about the desk. Journalists, platforms, and the conditions under which a wire can still exist.",
+      "keywords": ["journalist", "press freedom", "newsroom", "first amendment", "censorship", "media", "broadcaster"],
+      "sources": [{"label": "NPR", "url": "https://www.npr.org/sections/thetwo-way/"}]
+    }
+  ]
+}

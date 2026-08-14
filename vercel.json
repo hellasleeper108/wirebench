@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/status.py": { "maxDuration": 15, "memory": 1024 },
+    "api/desks.py": { "maxDuration": 30, "memory": 1024 },
+    "api/wire.py": { "maxDuration": 30, "memory": 1024 },
+    "api/search.py": { "maxDuration": 30, "memory": 1024 },
+    "api/refresh.py": { "maxDuration": 60, "memory": 1024 }
+  }
+}
